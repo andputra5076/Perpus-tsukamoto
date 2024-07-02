@@ -1,0 +1,31 @@
+1. Install XAMPP
+Unduh XAMPP: Buka Apache Friends download page dan unduh versi terbaru XAMPP sesuai dengan sistem operasi Anda.
+Install XAMPP: Jalankan installer dan ikuti petunjuk untuk menginstal XAMPP di komputer Anda. Secara default, XAMPP akan diinstal di C:\xampp
+
+2. Menyiapkan Proyek PHP
+Salin proyek PHP Anda: Salin folder proyek PHP Anda ke dalam direktori C:\xampp\htdocs. Misalnya, jika proyek Anda bernama perpus-tsukamoto, maka direktori proyek Anda akan berada di C:\xampp\htdocs\perpus-tsukamoto
+
+3. Menjalankan Server
+Buka XAMPP Control Panel: Jalankan aplikasi XAMPP Control Panel.
+Start Apache dan MySQL: Klik tombol Start di sebelah Apache dan MySQL untuk menjalankan server web dan database.
+
+4. Mengatur Database
+Buat Database: Anda dapat membuat database melalui phpMyAdmin atau menggunakan command line.
+
+Menggunakan phpMyAdmin:
+Akses phpMyAdmin di http://localhost/phpmyadmin.
+Login dengan username root dan tanpa password (default).
+Buat database baru dengan nama perpus_tsukamoto_db
+Import Database: 1. buka folder Database/perpus_tsukamoto_db.text ctrl + shift c | ctrl + shift v di SQL database perpus_tsukamoto_db
+                 2. buka folder Database/dataset.text ctrl + shift c | ctrl + shift v di SQL database perpus_tsukamoto_db
+
+Buka phpMyAdmin.
+Pilih database perpus_tsukamoto_db.
+Klik tab Import dan unggah file SQL Anda.
+
+4. Jalankan Program
+http://localhost/perpus-tsukamoto/
+
+5. User Login
+username : admin
+password : admin

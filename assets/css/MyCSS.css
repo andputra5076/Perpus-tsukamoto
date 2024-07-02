@@ -1,0 +1,93 @@
+﻿           .icon
+         {
+            padding: 15px;
+            color : darkgreen;
+            min-width: 40px;
+            text-align: center;
+        }
+
+           .dropdown-menu{
+               top:33px;
+              
+           }
+        .dropdown:hover .dropdown-menu{
+          display:block;     
+        }
+         .dropdown-menu:hover {
+          display:block;
+         
+          
+        }
+        .responsiveSideBar{
+             width:250px;
+             overflow-y:auto;
+        }
+        .LogoImage {
+            padding:10px;
+        }
+        .CenterForm{
+             margin-left: 250px;
+             margin-top:25px;
+        }
+        .logo{
+            position: relative;height:100px; background-color:whitesmoke;
+          
+        }
+        .hideextra {white-space:nowrap }
+            .navbar-toggler{
+                display:none;
+                
+            }
+
+            .responsiveTableHeader_show{
+                display:none;
+               
+            }
+        @media screen and (max-width:992px) {
+            .responsiveTableHeader_hide{
+                display:none;
+            }
+             .responsiveTableHeader_show{
+                display:block;                
+            }
+        }
+        @media screen and (max-width:500px) {
+        
+           .responsiveSideBar{
+               margin-top:35px;
+               font-size:25px;
+               text-align:center;
+               display:none;
+               width:100%;
+               animation:animateleft 0.6s;    
+               animation: animateleft from{left:-300px;opacity:0} to{left:0;opacity:1}          
+            }
+        .CenterForm{
+                 margin-left:0px;
+                 margin-top:35px;
+               
+            }
+        .responsiveSideBar span{
+                display:block;
+            }
+         .logo{
+            position:relative;height:7%; background-color:;
+          
+        }
+        .LogoImage{
+               display:none; 
+            }
+               .navbar-toggler{
+                display:block;
+            }
+              .topHeaderbar{
+                 
+                  top:100px;
+              }
+        }
+  
+       .Table_Row_Hover:hover{
+             background-color: whitesmoke;
+          }
+
+ .pager span { color:red;font-weight:bold; font-size:16pt; }

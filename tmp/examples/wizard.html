@@ -1,0 +1,466 @@
+<!--
+
+  =========================================================
+  * Paper Dashboard PRO - V1.3.1
+  =========================================================
+
+  * Product Page: https://www.creative-tim.com/product/paper-dashboard-pro
+  * Available with purchase of license from https://www.creative-tim.com/product/paper-dashboard-pro
+  * Copyright 2017 Ronstudio Software Jember (https://www.creative-tim.com)
+  * License Ronstudio Software Jember (https://www.creative-tim.com/license)
+
+  =========================================================
+
+-->
+
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from demos.creative-tim.com/paper-dashboard-pro/wizard.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Jun 2024 23:58:27 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Dinas Arsip dan Perpustakaan - Fuzzy Tsukamoto</title>
+
+  <link rel="canonical" href="https://www.creative-tim.com/product/paper-dashboard-pro" />
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <meta name="viewport" content="width=device-width" />
+
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+
+  <link href="../assets/css/paper-dashboard.css" rel="stylesheet" />
+
+  <link href="../assets/css/demo.css" rel="stylesheet" />
+
+  <link href="../assets/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,300" rel="stylesheet" type="text/css">
+  <link href="../assets/css/themify-icons.css" rel="stylesheet">
+
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          '../../www.googletagmanager.com/gtm5445.html?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NKDMSK6');</script>
+
+</head>
+
+<body>
+
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+
+  <div class="wrapper">
+    <div class="sidebar" data-background-color="brown" data-active-color="danger">
+
+      <div class="logo">
+        <a href="https://www.creative-tim.com/" class="simple-text logo-mini">
+          CT
+        </a>
+        <a href="https://www.creative-tim.com/" class="simple-text logo-normal">
+          Ronstudio Software Jember
+        </a>
+      </div>
+      <div class="sidebar-wrapper">
+        <div class="user">
+          <div class="photo">
+            <img src="../assets/img/faces/face-2.jpg" />
+          </div>
+          <div class="info">
+            <a data-toggle="collapse" href="#collapseExample" class="collapsed">
+              <span>
+                Chet Faker
+                <b class="caret"></b>
+              </span>
+            </a>
+            <div class="clearfix"></div>
+            <div class="collapse" id="collapseExample">
+              <ul class="nav">
+                <li>
+                  <a href="#profile">
+                    <span class="sidebar-mini">Mp</span>
+                    <span class="sidebar-normal">My Profile</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#edit">
+                    <span class="sidebar-mini">Ep</span>
+                    <span class="sidebar-normal">Edit Profile</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#settings">
+                    <span class="sidebar-mini">S</span>
+                    <span class="sidebar-normal">Settings</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <ul class="nav">
+					<li>
+						<a href="bootstrap-table.html">
+							<i class="ti-calendar"></i>
+							<p>Home</p>
+						</a>
+					</li>
+					<li>
+						<a href="bootstrap-table.html">
+							<i class="ti-calendar"></i>
+							<p>Data Pengunjung</p>
+						</a>
+					</li>
+					<li>
+						<a href="bootstrap-table.html">
+							<i class="ti-calendar"></i>
+							<p>Data Training</p>
+						</a>
+					</li>
+					<li>
+						<a href="bootstrap-table.html">
+							<i class="ti-calendar"></i>
+							<p>Prediksi</p>
+						</a>
+					</li>
+					<li>
+						<a href="bootstrap-table.html">
+							<i class="ti-calendar"></i>
+							<p>Hasil</p>
+						</a>
+					</li>
+					<li>
+						<a href="bootstrap-table.html">
+							<i class="ti-calendar"></i>
+							<p>Data Admin</p>
+						</a>
+					</li>
+				</ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-minimize">
+            <button id="minimizeSidebar" class="btn btn-fill btn-icon"><i class="ti-more-alt"></i></button>
+          </div>
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar bar1"></span>
+              <span class="icon-bar bar2"></span>
+              <span class="icon-bar bar3"></span>
+            </button>
+            <a class="navbar-brand" href="#wizard">Wizard</a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <form class="navbar-form navbar-left navbar-search-form" role="search">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                <input type="text" value class="form-control" placeholder="Search...">
+              </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="#stats" class="dropdown-toggle btn-magnify" data-toggle="dropdown">
+                  <i class="ti-panel"></i>
+                  <p>Stats</p>
+                </a>
+              </li>
+              <li class="dropdown">
+                <a href="#notifications" class="dropdown-toggle btn-rotate" data-toggle="dropdown">
+                  <i class="ti-bell"></i>
+                  <span class="notification">5</span>
+                  <p class="hidden-md hidden-lg">
+                    Notifications
+                    <b class="caret"></b>
+                  </p>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#not1">Notification 1</a></li>
+                  <li><a href="#not2">Notification 2</a></li>
+                  <li><a href="#not3">Notification 3</a></li>
+                  <li><a href="#not4">Notification 4</a></li>
+                  <li><a href="#another">Another notification</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#settings" class="btn-rotate">
+                  <i class="ti-settings"></i>
+                  <p class="hidden-md hidden-lg">
+                    Settings
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <div class="card card-wizard" id="wizardCard">
+                <form id="wizardForm" method action>
+                  <div class="card-header text-center">
+                    <h4 class="card-title">Awesome Wizard</h4>
+                    <p class="category">Split a complicated flow in multiple steps</p>
+                  </div>
+                  <div class="card-content">
+                    <ul class="nav">
+                      <li><a href="#tab1" data-toggle="tab">First Tab</a></li>
+                      <li><a href="#tab2" data-toggle="tab">Second Tab</a></li>
+                      <li><a href="#tab3" data-toggle="tab">Third Tab</a></li>
+                    </ul>
+                    <div class="tab-content">
+                      <div class="tab-pane" id="tab1">
+                        <h5 class="text-center">Please tell us more about yourself.</h5>
+                        <div class="row">
+                          <div class="col-md-5 col-md-offset-1">
+                            <div class="form-group">
+                              <label class="control-label">
+                                First Name
+                              </label>
+                              <input class="form-control" type="text" name="first_name" placeholder="ex: Mike" />
+                            </div>
+                          </div>
+                          <div class="col-md-5">
+                            <div class="form-group">
+                              <label class="control-label">
+                                Last Name
+                              </label>
+                              <input class="form-control" type="text" name="last_name" required="true"
+                                placeholder="ex: Andrew" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-10 col-md-offset-1">
+                            <div class="form-group">
+                              <label class="control-label">
+                                Email<star>*</star>
+                              </label>
+                              <input class="form-control" type="text" name="email" email="true"
+                                placeholder="ex: hello@creative-tim.com" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="tab2">
+                        <h5 class="text-center">Please give us more details about your platform.</h5>
+                        <div class="row">
+                          <div class="col-md-10 col-md-offset-1">
+                            <div class="form-group">
+                              <label class="control-label">Your Website<star>*</star></label>
+                              <input class="form-control" type="text" name="website" url="true.html"
+                                placeholder="ex: https://www.creative-tim.com" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-5 col-md-offset-1">
+                            <div class="form-group">
+                              <label class="control-label">Framework Type</label>
+                              <input class="form-control" type="text" name="framework"
+                                placeholder="ex: https://www.creative-tim.com" />
+                            </div>
+                          </div>
+                          <div class="col-md-5">
+                            <div class="form-group">
+                              <label class="control-label">
+                                Language<star>*</star>
+                              </label>
+
+                              <select name="cities" class="form-control">
+                                <option selected disabled>- language -</option>
+                                <option value="ms">Bahasa Melayu</option>
+                                <option value="ca">Català</option>
+                                <option value="da">Dansk</option>
+                                <option value="de">Deutsch</option>
+                                <option value="en">English</option>
+                                <option value="es">Español</option>
+                                <option value="el">Eλληνικά</option>
+                                <option value="fr">Français</option>
+                                <option value="it">Italiano</option>
+                                <option value="hu">Magyar</option>
+                                <option value="nl">Nederlands</option>
+                                <option value="no">Norsk</option>
+                                <option value="pl">Polski</option>
+                                <option value="pt">Português</option>
+                                <option value="fi">Suomi</option>
+                                <option value="sv">Svenska</option>
+                                <option value="tr">Türkçe</option>
+                                <option value="is">Íslenska</option>
+                                <option value="cs">Čeština</option>
+                                <option value="ru">Русский</option>
+                                <option value="th">ภาษาไทย</option>
+                                <option value="zh">中文 (简体)</option>
+                                <option value="zh-TW">中文 (繁體)</option>
+                                <option value="ja">日本語</option>
+                                <option value="ko">한국어</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-5 col-md-offset-1">
+                            <div class="form-group">
+                              <label class="control-label">
+                                Bootstrap Version
+                              </label>
+
+                              <select name="cities" class="form-control">
+                                <option selected disabled>- version -</option>
+                                <option value="1.1">Bootstrap 1.1</option>
+                                <option value="2.0">Bootstrap 2.0</option>
+                                <option value="3.0">Bootstrap 3.0</option>
+                                <option value="4.0">Bootstrap 4.0(alpha)</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-md-5">
+                            <div class="form-group">
+                              <label class="control-label">Price</label>
+                              <input class="form-control" type="text" name="price" placeholder="ex: 19.00" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="tab3">
+                        <h2 class="text-center text-space">Yuhuuu! <br><small> Click on "<b>Finish</b>" to join our
+                            community</small></h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <button type="button" class="btn btn-default btn-fill btn-wd btn-back pull-left">Back</button>
+                    <button type="button" class="btn btn-info btn-fill btn-wd btn-next pull-right">Next</button>
+                    <button type="button" class="btn btn-info btn-fill btn-wd btn-finish pull-right"
+                      onclick="onFinishWizard()">Finish</button>
+                    <div class="clearfix"></div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container-fluid">
+          <nav class="pull-left">
+            <ul>
+              <li>
+                <a href="https://www.creative-tim.com/">
+                  Ronstudio Software Jember
+                </a>
+              </li>
+              <li>
+                <a href="https://blog.creative-tim.com/">
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a href="https://www.creative-tim.com/license">
+                  Licenses
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="copyright pull-right">
+            &copy;
+            <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa-heart heart"></i> by <a
+              href="https://www.creative-tim.com/">Ronstudio Software Jember</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+    integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+    data-cf-beacon='{"rayId":"892dc7b6ceaa4a41","b":1,"version":"2024.4.1","token":"1b7cbb72744b40c580f8633c6b62637e"}'
+    crossorigin="anonymous"></script>
+</body>
+
+<script src="../assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="../assets/js/jquery-ui.min.js" type="text/javascript"></script>
+<script src="../assets/js/perfect-scrollbar.min.js" type="text/javascript"></script>
+<script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+<script src="../assets/js/jquery.validate.min.js"></script>
+
+<script src="../assets/js/es6-promise-auto.min.js"></script>
+
+<script src="../assets/js/moment.min.js"></script>
+
+<script src="../assets/js/bootstrap-datetimepicker.js"></script>
+
+<script src="../assets/js/bootstrap-selectpicker.js"></script>
+
+<script src="../assets/js/bootstrap-switch-tags.js"></script>
+
+<script src="../assets/js/jquery.easypiechart.min.js"></script>
+
+<script src="../assets/js/chartist.min.js"></script>
+
+<script src="../assets/js/bootstrap-notify.js"></script>
+
+<script src="../assets/js/sweetalert2.js"></script>
+
+<script src="../assets/js/jquery-jvectormap.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFPQibxeDaLIUHsC6_KqDdFaUdhrbhZ3M"></script>
+
+<script src="../assets/js/jquery.bootstrap.wizard.min.js"></script>
+
+<script src="../assets/js/bootstrap-table.js"></script>
+
+<script src="../assets/js/jquery.datatables.js"></script>
+
+<script src="../assets/js/fullcalendar.min.js"></script>
+
+<script src="../assets/js/paper-dashboard.js"></script>
+
+<script src="../assets/js/jquery.sharrre.js"></script>
+
+<script src="../assets/js/demo.js"></script>
+<script>
+  // Facebook Pixel Code Don't Delete
+  !function (f, b, e, v, n, t, s) {
+    if (f.fbq) return; n = f.fbq = function () {
+      n.callMethod ?
+      n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+    }; if (!f._fbq) f._fbq = n;
+    n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+    t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+  }(window,
+    document, 'script', '../../connect.facebook.net/en_US/fbevents.js');
+
+  try {
+    fbq('init', '111649226022273');
+    fbq('track', "PageView");
+
+  } catch (err) {
+    console.log('Facebook Track Error:', err);
+  }
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=111649226022273&amp;ev=PageView&amp;noscript=1" />
+</noscript>
+<script type="text/javascript">
+  $(document).ready(function () {
+    demo.initWizard();
+  });
+</script>
+
+<!-- Mirrored from demos.creative-tim.com/paper-dashboard-pro/wizard.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Jun 2024 23:58:31 GMT -->
+
+</html>
